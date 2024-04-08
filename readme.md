@@ -24,7 +24,9 @@ If time permits, we will also compare the performance of different models.
 
 We attempted to deploy the GUI using an M1 computer, but encountered numerous bugs and issues that need to be addressed. One major challenge we faced was the lack of memory and hard disk storage.
 
-As a workaround for our demo, we utilized the 7b model instead of 13b model and, also we adjusted the parameters of the model like top_k, data type (float32 to float16), etc to reduce the memory usage in this model.
+As a workaround for our demo, we utilized the 7b model instead of 13b model and, also we adjusted the parameters of the model like top_k, data type (float32 to float16), less tools etc to reduce the memory usage in this model.
+
+However, if we use `cpu` in Mac, the memory usage is over 16GB when running this code and the amount of models is over 30GB. If we use 7b model, the hard disk usage will be more than 50GB.
 
 ---
 
