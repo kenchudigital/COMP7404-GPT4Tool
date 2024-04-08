@@ -28,6 +28,8 @@ As a workaround for our demo, we utilized the 7b model instead of 13b model and,
 
 However, if we use `cpu` in Mac, the memory usage is over 16GB when running this code and the amount of models is over 30GB. If we use 7b model, the hard disk usage will be more than 50GB.
 
+- I also created `gpt4tools_demo_once.py` for once-time response. Or you can consider it as a test case.
+
 ---
 
 ## Additional Demo
